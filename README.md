@@ -1,2 +1,22 @@
-# Practicas
-practica1-cgihc
+# Repositorio de prácicas de Computación Gráfica e Interacción Humano Computadora
+
+FACULTAD DE INGENIERÍA
+
+DIVISIÓN DE INGENIERÍA ELÉCTRICA
+
+INGENIERÍA EN COMPUTACIÓN
+
+LABORATORIO DE COMPUTACIÓN GRÁFICA e INTERACCIÓN HUMANO COMPUTADORA
+
+**PRÁCTICA Nº** 01
+
+**VICTOR ANIZAR MORALES: 01**
+
+**Nº de Cuenta:** 315676697
+
+**GRUPO DE LABORATORIO:** 11
+
+**GRUPO DE TEORÍA: 06**
+
+**SEMESTRE 2024-2**
+
