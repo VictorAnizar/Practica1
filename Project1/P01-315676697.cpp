@@ -49,23 +49,26 @@ void CrearTriangulo()
 {
 	GLfloat vertices[] = {
 		
-		//trangulo superior -> rombo
-		-0.7f, 0.5f,0.0f,
-		-0.6f, 0.6f,0.0f,
-		-0.5f, 0.5f,0.0f,
+		-0.7f, 0.6f,0.0f,
+		-0.6f, 0.7f,0.0f,
+		-0.5f, 0.4f,0.0f,
 
-		//triangulo inferior -> rombo
-		-0.7f, 0.5f,0.0f,
-		-0.6f, 0.4f,0.0f,
-		-0.5f, 0.5f,0.0f,
-		//robmo
-		-0.4f, 0.3f,0.0f,
-		-0.2f, 0.3f,0.0f,
-		-0.2f, 0.1f,0.0f,
+		-0.6f, 0.7f,0.0f,
+		-0.4f, 0.5f,0.0f,
+		-0.5f, 0.4f,0.0f,
+		//triangulo V
+		-0.5f, 0.4f,0.0f,
+		-0.4f, 0.5f,0.0f,
+		-0.3f, 0.4f,0.0f,
 
-		-0.4f, 0.3f,0.0f,
-		-0.4f, 0.1f,0.0f,
-		-0.2f, 0.1f,0.0f,
+
+		-0.4f, 0.5f,0.0f,
+		-0.2f, 0.7f,0.0f,
+		-0.3f, 0.4f,0.0f,
+
+		-0.3f, 0.4f,0.0f,
+		-0.1f, 0.6f,0.0f,
+		-0.2f, 0.7f,0.0f
 
 
 	};
@@ -237,7 +240,7 @@ int main()
 		glUseProgram(shader);
 
 		glBindVertexArray(VAO);
-		glDrawArrays(GL_TRIANGLES,0,12);
+		glDrawArrays(GL_TRIANGLES,0,15);
 		glBindVertexArray(0);
 
 		glUseProgram(0);
