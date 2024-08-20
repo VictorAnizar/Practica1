@@ -293,11 +293,11 @@ int main()
 		float tiempoTranscurrido = std::chrono::duration<float>(ahora - inicio).count();
 
 		// Determinar el color de fondo cada intervalo
-		if (std::fmod(tiempoTranscurrido, duracionCiclo) < 0.1f) { // Cambiar el color aproximadamente cada 0.1 segundos
+		if (std::fmod(tiempoTranscurrido, duracionCiclo) < 0.1f) { 
 			float r = distrib(gen);
 			float g = distrib(gen);
 			float b = distrib(gen);
-			glClearColor(r, g, b, 1.0f); // Establecer el color de fondo aleatorio
+			glClearColor(r, g, b, 1.0f); 
 		}
 
 		//Recibir eventos del usuario
@@ -316,7 +316,6 @@ int main()
 		glUseProgram(0);
 
 		glfwSwapBuffers(mainWindow);
-		// Esperar un corto periodo antes de actualizar (aproximadamente 60 FPS)
 		glfwWaitEventsTimeout(1.0 / 60.0);
 	}
 
