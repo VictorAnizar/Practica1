@@ -1,4 +1,3 @@
-# Repositorio de prácicas de Computación Gráfica e Interacción Humano Computadora
 
 FACULTAD DE INGENIERÍA
 
